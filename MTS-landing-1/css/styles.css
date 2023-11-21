@@ -250,3 +250,18 @@
     align-items: center;
     flex-shrink: 0;
 }
+.employee{
+    width: 317px;
+    height: 317px;
+    
+    border-radius: 20px;
+    background: #C4C4C4;
+}
+.black-letters-28px{
+    color: #3A3A3A;
+    font-family: Gilroy;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
