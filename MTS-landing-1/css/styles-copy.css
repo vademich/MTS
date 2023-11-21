@@ -1,0 +1,99 @@
+/* header */
+/* (rectangle3 in Figma) */
+.header{
+    width: 100%;
+    height: 20vh;
+    flex-shrink: 0;
+
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    box-shadow: 0px 2px 2px gray;
+    z-index: 10;
+}
+.header{
+    background: #FBFBFD;
+    background: plum;
+}
+
+.group{
+    color: #002ED0;
+    font-family: Muller;
+    font-size: 12.686px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126%;
+    letter-spacing: -0.317px;
+}
+
+.header-commponent{
+    color: #3A3A3A;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 110% */
+}
+
+.header-commponent-telephone{
+    color: #050608;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;   
+    line-height: normal;
+}
+
+.rectangle1349{
+    width: 379px;
+    height: 468px;
+    flex-shrink: 0;
+
+    z-index: 0;
+}
+.rectangle1349{
+    border-radius: 20px;
+    background: linear-gradient(152deg, #002ED0 8.86%, #021C75 98.88%);
+
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 38px; /* 105.556% */
+    text-transform: uppercase;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.h-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.rashiryaem{
+    position: absolute;
+    top: 40%;
+    left: 2%;
+}
+.granici{
+    position: absolute;
+    top: 47%;
+    left: 5%;
+}
+.bisnesa{
+    position: absolute;
+    top: 55%;
+    left: 3%;
+}
+/*  */

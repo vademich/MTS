@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="import" href="./html/components/header.html">
+    </head>
+    <body>
+        <time-formatted id="elem1" hour="numeric" minute="numeric" second="numeric"></time-formatted><br>
+        <time-formatted id="elem2" hour="numeric" minute="numeric" second="numeric"></time-formatted><br>
+        <time-formatted id="elem3" hour="numeric" minute="numeric" second="numeric"></time-formatted><br>
+
+        <script>
+            setInterval(() => elem1.setAttribute('datetime', new Date()), 1000);
+            setInterval(() => elem2.setAttribute('datetime', new Date()), 1000);
+            setInterval(() => elem3.setAttribute('datetime', new Date()), 1000);
+        </script>
+    </body>
+</html>
