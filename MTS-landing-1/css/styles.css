@@ -244,17 +244,18 @@
 
     animation-name: slide;
     animation-delay: 3s;
-    animation-duration: 3s, 2s;
+    animation-duration: 3000ms;
+    animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
 }
 @keyframes slide {
     from{
-        transform: translate(300px);
-        /* opacity: 0; */
+        transform: translate(100px);
+        opacity: 0;
         visibility: hidden;
     }
     to{
-        /* opacity: 100%; */
+        opacity: 100%;
         visibility: initial;
     }
 }
