@@ -208,12 +208,6 @@
     display: flex;
     flex-direction: row;
 }
-/* .caption-truck:hover{
-    animation-name: slide;
-    animation-duration: 3s, 2s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-} */
 .caption{
     position: relative;
     top: 114px;
@@ -231,7 +225,6 @@
     background-position: bottom left;
     background-repeat: no-repeat;
     object-fit: cover;
-    visibility: hidden;
 
     display: flex;
     width: 1030.729px;
@@ -260,9 +253,21 @@
     }
 }
 .truck:hover{
+    position: relative;
+    top: 90px;
     background-image: url(../images/truck-light.svg), url(../images/truck.svg);
-}
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    object-fit: cover;
 
+    display: flex;
+    width: 1030.729px;
+    height: 537.733px;
+    padding: 0px 0px 69.943px 72.41px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+}
 .employee{
     width: 317px;
     height: 317px;
