@@ -204,9 +204,6 @@
     align-items: center;
     justify-content: space-around;
 }
-.top-line{}
-.bottom-line{}
-
 .caption-truck{
     display: flex;
     flex-direction: row;
@@ -217,6 +214,9 @@
     left: 82px;
     width: 545px;
     height: 110px;
+}
+.caption-2{
+    width: 410px;
 }
 .truck{
     position: relative;
@@ -264,4 +264,23 @@
     font-style: normal;
     font-weight: 600;
     line-height: 30px;
+}
+.square{
+    width: 318px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: #FFF;
+}
+.bottom{
+    position: relative;
+    bottom: -30%;
+}
+.right{
+    position: relative;
+    right: -50%;
+}
+.bottom-right{
+    position: relative;
+    bottom: -35%;
+    right: 0%;
 }
